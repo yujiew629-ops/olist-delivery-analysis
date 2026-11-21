@@ -1,4 +1,4 @@
-﻿"""生成数据分析岗简历（单页 A4）。
+"""生成数据分析岗简历（单页 A4）。
 
 运行：
     python build_resume.py
@@ -113,7 +113,7 @@ def main() -> None:
 
     p = doc.add_paragraph()
     p.paragraph_format.space_after = Pt(2)
-    r = p.add_run("138-0000-0000　|　your@email.com　|　github.com/yourname　|　重庆 · 可异地实习")
+    r = p.add_run("138-0000-0000　|　your@email.com　|　github.com/yujiew629-ops　|　重庆 · 可异地实习")
     set_font(r, 9.2, color=GRAY)
     bottom_border(p, "333333", "8")
 
@@ -152,6 +152,8 @@ def main() -> None:
 
     # ---------------- 其他 ----------------
     section(doc, "其他")
+    bullet(doc, "项目仓库：github.com/yujiew629-ops/olist-delivery-analysis"
+                "（含 23 页报告、10 张图、完整 SQL 与 Python 代码）")
     bullet(doc, "竞赛 / 证书：【如数学建模、统计建模大赛、CDA 等，无则删掉本行】")
     bullet(doc, "自我评价：统计科班出身，习惯先确认口径再下结论；"
                 "对混杂与因果区分较敏感，写分析时会主动标注估计的局限")
@@ -165,5 +167,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
