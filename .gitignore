@@ -1,0 +1,25 @@
+# ---------- 数据（体积大，按 README 说明重新下载即可） ----------
+data/raw/
+data/processed/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---------- 编辑器 ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时输出 ----------
+*.log
+~$*

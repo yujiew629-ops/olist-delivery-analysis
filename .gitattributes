@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.docx binary
+
+*.py   text eol=lf
+*.sql  text eol=lf
+*.md   text eol=lf
